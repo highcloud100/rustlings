@@ -54,6 +54,7 @@ impl State {
             Message::Move(state) => self.move_position(state),
             Message::Quit => self.quit(),
         }
+
     }
 }
 
